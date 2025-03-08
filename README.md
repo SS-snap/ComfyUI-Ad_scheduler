@@ -18,4 +18,4 @@ When the total number of steps is 30 and ratio = 0.2, we simulate the model's de
 ![example2](./assest/denoise.png)
 
 # ratio 0.1 -> 0.9 denoise = 0.6 inject = 1
-![example3](./assest/start_At.png)
+![example3](./assest/start_at.png)
