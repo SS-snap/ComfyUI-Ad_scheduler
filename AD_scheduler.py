@@ -12,7 +12,7 @@ class AD_Scheduler:
                 "scheduler": (comfy.samplers.SCHEDULER_NAMES,),
                 "steps": ("INT", {"default": 20, "min": 1, "max": 10000}),
                 "denoise": ("FLOAT", {"default": 1.0, "min": 0.0, "max": 1.0, "step": 0.01}),
-                "step_ratio": ("FLOAT", {"default": 1.0, "min": 0.0, "max": 1.0, "step": 0.01}),
+                "sigmas_ratio": ("FLOAT", {"default": 1.0, "min": 0.0, "max": 1.0, "step": 0.01}),
             }
         }
 
