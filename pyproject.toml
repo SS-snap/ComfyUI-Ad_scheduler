@@ -1,5 +1,5 @@
 [project]
-name = "ad_scheduler"
+name = "ComfyUI-Ad_scheduler"
 description = "This node is used to enhance image details. We can add a latent space image and introduce any amount of noise. Then, we can start denoising at any timestep. This allows us to add more details to the image while maintaining overall consistency as much as possible."
 version = "1.0.0"
 license = {file = "LICENSE"}
@@ -9,6 +9,6 @@ Repository = "https://github.com/SS-snap/ComfyUI-Ad_scheduler"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "snap-demo"
 DisplayName = "ComfyUI-Ad_scheduler"
 Icon = ""
